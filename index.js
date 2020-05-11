@@ -15,13 +15,13 @@ function submitData(userName, userEmail) {
 
       return fetch("http://localhost:3000/users", configObj)
       .then(function(response) {
-          return response.json();  
+        return response.json();
       })
       .then(function(object) {
-        console.log(object);
-    })
-    .catch(function(error) {
-        alert("Error! Couldn't fetch object");
-        console.log(error.message);
+        document.body.innerHTML = object[ 'id' ];
+      })
+      .catch(function(error) {
+        alert("Unauthorized Access");
+        document.body.innerHTML = error.message;
       });
 }

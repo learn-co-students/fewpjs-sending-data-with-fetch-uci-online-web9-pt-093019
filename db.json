@@ -25,6 +25,12 @@
       "dogName": "Byron",
       "dogBreed": "Poodle",
       "id": 5
+    },
+    {
+      "dogName": "alice",
+      "dogBreed": "person",
+      "submit": "Submit",
+      "id": 6
     }
   ],
   "cats": [
@@ -39,7 +45,28 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "melissa",
+      "email": "melissa@fake.com",
+      "id": 1
+    },
+    {
+      "name": "alice",
+      "email": "alice@fake.com",
+      "id": 2
+    },
+    {
+      "name": "sally",
+      "email": "sally@fake.com",
+      "id": 3
+    },
+    {
+      "name": "ben",
+      "email": "ben@fake.com",
+      "id": 4
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
